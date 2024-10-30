@@ -2,3 +2,4 @@ git brach
 git branch(new_branch_name)
 git checkout (where you wanna go)
 git merge 2nd branch (which has some changes to non change one )
+git log (show all history of commits , wbt if want to see last n//3 number commit? , so here we use git log -p -3)
