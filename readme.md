@@ -5,3 +5,4 @@ cmd~
 git config --list
 git brancn(check branch name , so we can change it to master)
 git remote -v(#View Linked Remotes: Quickly see which remotes are connected and their URLs. This is helpful when managing multiple remotes (like origin and upstream) for tracking multiple repositories, such as a forked repository and the original source[1].)
+restore previous files// use to delete or go back to prev. changes 
