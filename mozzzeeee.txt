@@ -1,14 +1,44 @@
-tutorial kidna for cuties.
-babes its for you @ak(hahaha)
-
-cmd~
-git config --list
-git brancn(check branch name , so we can change it to master) // git branch -m master main
-
-git remote -v(#View Linked Remotes: Quickly see which remotes are connected and their URLs. This is helpful when managing multiple remotes (like origin and upstream) for tracking multiple repositories, such as a forked repository and the original source[1].)
-restore previous files// use to delete or go back to prev. changes 
-git restore --staged (unstage file , add. wanna be commit file ) / & git reset "document name" (it would do same ).
-git diff --satged( helps to check the files which are staged but not commited )
+Ls -a (show is that given repo git to not , If its not use *(git init ) )
+git config —list  (to show if u already registered stuff email and name , which typically show who commits all the stuff *( for committing this if haven’t ,git config —global user.name  “ “, git config —global user.email “ “ .)
+git  add <some specific file> , or u can use (git add . ) 
+git status , git commit -m “name anything you wanna say “ , git branch ,  git branch -M main  ,git remote  add origin (link ), git remote -v , git push origin main  (all the process when you are making repo from cml)  , +  -u as well as if we do continue adding up now , ewe can replace this long string just by git push ,
+But for the existing repo(git clone *(link existing repo)  fetch change it to main and just start pushing , but the hack is what if you change file so its show some kinda modification what you can do is use 
+git restore (file name you want to restore )
 
 
-yo just checkin  (pull)
+
+
+Git add .
+Git commi -m” new file(2).txt” #staged now 
+Git restore  - -stagged “new file (3).txt” # gonna untagged this , but we can use better method which is  git reset “file name”
+Let you clone you repos so add something add 
+And not commit yet 
+So you can use git diff —stagged 
+Its shows the difference that present in it & now you are 1 commit ahead of remote repo so 
+You do ,git push origin main
+#git brach concept so let you have to work some other feature in the repos so you take a snapshot fit and 
+Work so now 
+Git branch 
+Git branch developer 
+Git branch (check where are we )
+Git brach checkout developer(now switch to different )
+Let you get some other commit here and stage it show at git status like it one head of something n all 
+So now we starting merge things out 
+    1. Git checkout main (now its on main brach ) git merge developer (that means it gonna merge out developer to main 
+Git log (show all commits that I done )
+
+
+
+#merge conflicts 
+Let 2 devs clone fill 
+Do  some change (a) and push it to main one while in developer branch then 
+In (B) when it going to do same thing first go to developer brach without affecting main one and do some change then merge but now there is a problem you’ll see
+When you gonna push it to origin show some corn already change something so what we have to do now 
+Git pull , if git pull origin main that mens you gonna pull something specifically from it which see you are from differ one and you just gonna pull it some differ which is main
+Now see those changes correct it then do 
+Git push origin main 
+
+
+
+
+
